@@ -1,0 +1,8 @@
+.container-data {
+    display: flex;
+    margin-left: 7rem;
+}
+
+.container-data__p {
+    margin-left: 0.5rem;
+}

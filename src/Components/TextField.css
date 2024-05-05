@@ -1,0 +1,21 @@
+.container-field {
+    /* border: 0.1rem solid black; */
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-family: "Figtree", sans-serif;
+    font-size: 2rem;
+    line-height: 35px;
+    height: 105px;
+    overflow: hidden;
+}
+
+.container-field {
+    color: rgb(255, 255, 255);
+}
+
+.word {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    
+}

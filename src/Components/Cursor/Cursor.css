@@ -1,0 +1,23 @@
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cursor {
+    width: 2px;
+    height: 1.7rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: fixed;
+    top: 200px;
+    left: 115px;
+    z-index: 9999;
+    animation: blink .5s infinite;
+}
